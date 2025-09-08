@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Seatwork 2: Data Types in Python</title>
+
+        <style>
+        body {
+            color: #589DB3;
+            background-image: url(https://i.pinimg.com/736x/62/32/8c/62328c7d3a578c3d2289547a10bfe57a.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            font-family: "Sour Gummy", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        #Restaurant {
+            font-size: 80px;
+            text-align: center;
+        }
+        
+        #Owner {
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        #since , #opening {
+            font-size: small;
+            text-align: center;
+        }
+
+        #entire{
+            margin: 30px;
+            margin-top: 100px;
+            padding: 35px;
+            size: 30%;
+            background-color: blanchedalmond;
+            border-radius: 35px;
+        }
+
+        #opening{
+            margin-top: 20px;
+        }
+
+        table {
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 35px;
+            text-align: center;
+            width: 900px;
+            background: whitesmoke;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #84848A;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #84848A;
+        }
+        
+        #product5 , #price5 {
+            border-bottom: none;
+        }
+
+        #product , #product1 , #product2 , #product3 , #product4 , #product5 {
+            border-right: 1px solid #84848A;
+        }
+    </style>
+</head>
+<body>
+    <py-script src="main.py"></py-script>
+    
+<div id="entire">
+    <div id="Restaurant"></div>
+    <div id="Owner"></div>
+
+    <div id="since"></div>
+
+<table>
+    <tr>
+        <th id='product'>Product</th>
+        <th>Price (₱)</th>
+    </tr>
+    <tr>
+        <td id='product1'></td>
+        <td id='price1'></td>
+    </tr>
+    <tr>
+        <td id='product2'></td>
+        <td id='price2'></td>
+    </tr>
+    <tr>
+        <td id='product3'></td>
+        <td id='price3'></td>
+    </tr>
+    <tr>
+        <td id='product4'></td>
+        <td id='price4'></td>
+    </tr>
+    <tr>
+        <td id='product5'></td>
+        <td id='price5'></td>
+    </tr>
+</table>
+
+    <div id="opening"></div>
+
+</div>
+
+</body>
+</html>
